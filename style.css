@@ -1,12 +1,12 @@
 #box{
-    width: 500px;
+    width: 600px;
     height: 100px;
-    background-color: lightblue;
+    background-color: rgb(0,200,2);
     transition-duration: 1000ms;
     
 }
 #box2{
-    width: 500px;
+    width: 600px;
     height: 100px;
     background-color: rgb(45, 145, 179);
     transition-duration: 1000ms
@@ -15,7 +15,7 @@
 }
 
 #box3{
-    width: 500px;
+    width: 600px;
     height: 100px;
     background-color: rgb(63, 76, 80);
     transition-duration: 1000ms
@@ -24,7 +24,7 @@
 
 
 #box4{
-    width: 500px;
+    width: 600px;
     height: 100px;
     background-color: rgb(215, 215, 38);
     transition-duration: 1000ms
