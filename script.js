@@ -17,20 +17,60 @@ box.style.backgroundColor = `rgb(${R},${G},${B})`;
 
 
 
-const circle = document.getElementById('box')
+const box2 = document.getElementById('box2')
 
 
 
 
-circle.addEventListener('click', changeColor);
+box2.addEventListener('click', changeColor2);
 
 
 
-function changeColor() {
+function changeColor2() {
     const R = Math.floor(Math.random()*255);   
     const G = Math.floor(Math.random()*255);
     const B = Math.floor(Math.random()*255);
 
 
-circle.style.backgroundColor = `rgb(${R},${G},${B})`;
+box2.style.backgroundColor = `rgb(${R},${G},${B})`;
+}
+
+
+
+const box3 = document.getElementById('box3')
+
+
+
+
+box3.addEventListener('click', changeColor3);
+
+
+
+function changeColor3() {
+    const R = Math.floor(Math.random()*255);   
+    const G = Math.floor(Math.random()*255);
+    const B = Math.floor(Math.random()*255);
+
+
+box3.style.backgroundColor = `rgb(${R},${G},${B})`;
+}
+
+
+
+const box4 = document.getElementById('box4')
+
+
+
+
+box4.addEventListener('click', changeColor4);
+
+
+
+function changeColor4() {
+    const R = Math.floor(Math.random()*255);   
+    const G = Math.floor(Math.random()*255);
+    const B = Math.floor(Math.random()*255);
+
+
+box4.style.backgroundColor = `rgb(${R},${G},${B})`;
 }
